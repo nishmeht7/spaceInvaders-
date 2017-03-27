@@ -1,6 +1,6 @@
-function Flower() {
-	this.x = width/2; 
-	this.y = 50; 
+function Flower(x, y) {
+	this.x = x; 
+	this.y = y; 
 
 	this.show = function(){
 		fill(255, 0 ,200); 
